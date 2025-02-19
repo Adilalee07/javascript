@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.main{
+    display: block;
+    background: none;
+    height: 70px;
+    width: 1400px;
+    margin: auto;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    box-sizing: border-box;
+
+}
+.logo{
+    float: left;
+    width: 350px;
+    height: 70px;
+}
+.logo img{
+    background-blend-mode:darken ;
+    margin: 5px;
+    padding-left: 250px;
+    align-items: centers;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    gap: 10px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 20px;
+    margin: 22px 10px 10px 48px;
+}
+.firstmaindiv {
+    box-sizing: border-box;
+    background-image: url('/hero_valentines_day_2025__dkl6dq1rjhqq_largetall.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 350px; /* Adjust as necessary */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.vd{
+    width: 290px;
+}
+.vd button{
+    width: 75px;
+    padding: 9px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-weight: bold;
+}
+.iphone16{
+    width: 1400px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    background-image: url(/iphone\ 16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.iphone16 h1{
+    padding-top: 25px;
+    color: white;
+  
+}
+.iphone16 p{
+    color: white;
+  
+}
+#btn{
+    background-color: blue;
+    padding: 7px;
+    width: 85px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btn1{
+    background-color: white;
+    padding: 7px;
+    width: 85px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btn2{
+    background-color: transparent;
+    padding: 7px;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid blue;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px 20px 5px 20px;
+}
+.iphone162{
+    width: 1400px;
+    justify-content: center;
+    text-align: center;
+    margin:  10px;
+    background-image: url(/iphone\ 16\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.iphone162 h1{
+    padding-top: 25px;
+    color: white;
+  
+}
+.iphone162 p{
+    color: white;
+  
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.Watch{
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(/watch.jpg);
+    width: 670px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Watch2{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(/watch2.jpg);
+    width: 670px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Mac{
+    color: black;
+    padding-top: 25px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(mac.jpg);
+    width: 670px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.ipad{
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(ipaad.jpg);
+    width: 670px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.trade{
+    color: black;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    width: 670px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.card{
+    color: black;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(promo_apple_card__5cm7draujpey_large.jpg);
+    width: 670px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.silver{
+    padding-left: 10px;
+    height: 700px;
+    margin: 10px;
+    padding-top: 140px;
+    background-color:  rgba(192, 192, 192, 0.815);
+    width: 185px;
+}
+.silver h1{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 300px;
+    padding-bottom: 100px;
+}
+.s-tv-1{
+    background-image: url(/1250x703.jpg);
+    width: 960px;
+    margin: 10px;
+    padding-left: 260px;
+    padding-top: 600px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s-tv-1 .btn3 {
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    display: inline;
+}
+.s-tv-1 p{
+    font-weight: 600;
+    display: inline;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.s-tv-1 p span{
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.silver2{
+    padding-left: 10px;
+    height: 700px;
+    margin: 10px;
+    padding-top: 140px;
+    background-color:  rgba(192, 192, 192, 0.815);
+    width: 185px;
+}
+.silver2 h1{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 300px;
+    padding-bottom: 100px;
+}
+.fourdiv{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 1400px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.ted{
+    width: 340px;
+    height: 350px;
+    background-image: url(/1250x703\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.moon{
+    width: 340px;
+    height: 350px;
+    background-image: url(/1250x703\ \(6\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.mythic{
+    width: 340px;
+    height: 350px;
+    background-image: url(/1250x703\ \(7\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.death{
+    width: 340px;
+    height: 350px;
+    background-image: url(/1250x703\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    padding-left: 300px;
+    padding-right:300px ;
+    width: 1400px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #555;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+}
+p {
+    margin: 10px 0;
+}
+a {
+    color: #0071e3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+hr{
+    width: 800px;
+    margin-left: 300px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #555;
+    background-color: #f9f9f9;
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 300px;
+}
+.footer-container ul{
+    list-style: none;
+    gap: 15px;
+    padding: 5px;
+}
+.footer-column{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-left:10px ;
+}
+.footer-column ul li{
+    margin-left:15px ;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.footer-column h3{
+    margin-left: 15px;
+}
+.footer-column h4{
+    margin-left: 15px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-bottom a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
